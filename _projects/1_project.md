@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Multilingual RAG System – Bangla Textbook Pipeline
-description: A sophisticated RAG system for Bengali textbook question answering.
+title: Learning Management System
+description: A full-stack Learning Management System with React, Node.js, Express, MongoDB, and Docker.
 img: assets/img/12.jpg
 importance: 1
 category: work
@@ -172,16 +172,16 @@ related_publications: false
   <div class="project-header">
 
     <div class="project-icon">
-      <i class="fas fa-flask"></i>
+      <i class="fas fa-graduation-cap"></i>
     </div>
 
     <div>
       <h1 class="project-title">
-        Multilingual RAG System – Bangla Textbook Pipeline
+        Learning Management System
       </h1>
 
       <p class="project-subtitle">
-        A sophisticated RAG system for Bengali textbook question answering.
+        A full-stack Learning Management System for B-JET.
       </p>
     </div>
 
@@ -190,32 +190,29 @@ related_publications: false
 
   <div class="project-description">
 
-    Built a complete <strong>Retrieval-Augmented Generation (RAG)</strong>
-    system that understands both English and Bengali. The system incorporates
-    a dual embedding strategy using <strong>Cohere</strong> and
-    <strong>OpenAI</strong>, advanced document reranking, OCR processing for
-    Bengali text, and a <strong>FastAPI</strong> backend integrated with a
-    <strong>Streamlit</strong> interface.
+    Developed a full-stack <strong>Learning Management System (LMS)</strong>
+    consisting of separate frontend and backend services. The backend is
+    built using <strong>Node.js, Express, and MongoDB</strong>, while the
+    frontend is developed using <strong>React</strong>.
 
-    The system ingests HSC Bangla textbooks and provides intelligent,
-    context-aware question answering capabilities. It was successfully
-    deployed on <strong>AWS EC2</strong> using <strong>Nginx</strong> as a
-    reverse proxy.
+    The project is containerized using <strong>Docker</strong> and
+    <strong>Docker Compose</strong>, allowing the frontend and backend
+    services to be built and launched together in a local development
+    environment.
 
   </div>
 
 
   <div class="project-tags">
 
-    <span class="project-tag">RAG</span>
-    <span class="project-tag">Multilingual AI</span>
-    <span class="project-tag">FastAPI</span>
-    <span class="project-tag">Streamlit</span>
+    <span class="project-tag">LMS</span>
+    <span class="project-tag">React</span>
+    <span class="project-tag">Node.js</span>
+    <span class="project-tag">Express</span>
+    <span class="project-tag">MongoDB</span>
     <span class="project-tag">Docker</span>
-    <span class="project-tag">AWS EC2</span>
-    <span class="project-tag">ChromaDB</span>
-    <span class="project-tag">OCR</span>
-    <span class="project-tag">Bengali NLP</span>
+    <span class="project-tag">Docker Compose</span>
+    <span class="project-tag">Full-Stack</span>
 
   </div>
 
@@ -223,23 +220,13 @@ related_publications: false
   <div class="project-buttons">
 
     <a
-      href="https://github.com/yourusername/your-repository"
+      href="https://github.com/shakil2022/Learning-Management-System"
       class="project-button primary"
       target="_blank"
       rel="noopener noreferrer"
     >
       <i class="fab fa-github"></i>
       View Code
-    </a>
-
-    <a
-      href="https://your-live-demo-url.com"
-      class="project-button secondary"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <i class="fas fa-play-circle"></i>
-      Live Demo
     </a>
 
   </div>
@@ -254,13 +241,59 @@ related_publications: false
   </h2>
 
   <p>
-    This project presents a multilingual Retrieval-Augmented Generation
-    pipeline designed specifically for question answering over Bengali
-    educational textbooks. The system combines document processing,
-    multilingual embeddings, vector search, reranking, and large language
-    model-based generation into a complete end-to-end question answering
-    pipeline.
+    The Learning Management System (LMS) is a full-stack web application
+    developed for B-JET. The system consists of both frontend and backend
+    services, providing a structured architecture for developing and
+    running the application.
   </p>
+
+
+  <h2 class="project-section-title">
+    System Architecture
+  </h2>
+
+  <div class="row justify-content-sm-center">
+
+    <div class="col-sm-6 mt-3 mt-md-0">
+
+      <div class="card h-100">
+        <div class="card-body">
+
+          <h4 class="card-title">
+            Frontend
+          </h4>
+
+          <p class="card-text">
+            The frontend of the LMS is developed using
+            <strong>React</strong>.
+          </p>
+
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="col-sm-6 mt-3 mt-md-0">
+
+      <div class="card h-100">
+        <div class="card-body">
+
+          <h4 class="card-title">
+            Backend
+          </h4>
+
+          <p class="card-text">
+            The backend is developed using
+            <strong>Node.js, Express, and MongoDB</strong>.
+          </p>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
 
 
   <h2 class="project-section-title">
@@ -268,41 +301,35 @@ related_publications: false
   </h2>
 
   <ul>
+
     <li>
-      Multilingual question answering supporting both English and Bengali.
+      Full-stack Learning Management System architecture.
     </li>
 
     <li>
-      Dual embedding strategy using Cohere and OpenAI embeddings.
+      React-based frontend application.
     </li>
 
     <li>
-      Advanced document retrieval and reranking.
+      Node.js and Express-based backend.
     </li>
 
     <li>
-      OCR processing for Bengali textbook content.
+      MongoDB database integration.
     </li>
 
     <li>
-      ChromaDB-based vector storage and retrieval.
+      Separate frontend and backend services.
     </li>
 
     <li>
-      FastAPI backend for serving the RAG pipeline.
+      Docker-based application environment.
     </li>
 
     <li>
-      Streamlit-based interactive user interface.
+      Docker Compose configuration for running the services together.
     </li>
 
-    <li>
-      Docker-based deployment.
-    </li>
-
-    <li>
-      AWS EC2 deployment with Nginx reverse proxy.
-    </li>
   </ul>
 
 
@@ -311,24 +338,46 @@ related_publications: false
   </h2>
 
   <p>
-    <strong>AI / NLP:</strong> Retrieval-Augmented Generation, multilingual
-    embeddings, Bengali NLP, OCR
+    <strong>Frontend:</strong> React
   </p>
 
   <p>
-    <strong>Backend:</strong> FastAPI
+    <strong>Backend:</strong> Node.js, Express
   </p>
 
   <p>
-    <strong>Frontend:</strong> Streamlit
+    <strong>Database:</strong> MongoDB
   </p>
 
   <p>
-    <strong>Database:</strong> ChromaDB
+    <strong>Deployment & Containerization:</strong> Docker, Docker Compose
   </p>
 
+
+  <h2 class="project-section-title">
+    Running the Project
+  </h2>
+
   <p>
-    <strong>Deployment:</strong> Docker, AWS EC2, Nginx
+    The project can be run locally using Docker Compose. After configuring
+    the required environment variables in the backend directory, the
+    frontend and backend services can be built and started together using
+    Docker Compose.
   </p>
+
+
+  <div class="project-buttons">
+
+    <a
+      href="https://github.com/shakil2022/Learning-Management-System"
+      class="project-button primary"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <i class="fab fa-github"></i>
+      GitHub Repository
+    </a>
+
+  </div>
 
 </div>
