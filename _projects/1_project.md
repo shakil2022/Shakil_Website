@@ -202,17 +202,17 @@ related_publications: false
 
   </div>
 
-
+Technology:,, Toolkit,Material ,,,.
   <div class="project-tags">
 
-    <span class="project-tag">LMS</span>
     <span class="project-tag">React</span>
+    <span class="project-tag">React</span>
+    <span class="project-tag">NRedux</span>
+    <span class="project-tag">UI</span>
+    <span class="project-tag">TypeScript</span>
+    <span class="project-tag">Express.js</span>
     <span class="project-tag">Node.js</span>
-    <span class="project-tag">Express</span>
-    <span class="project-tag">MongoDB</span>
-    <span class="project-tag">Docker</span>
-    <span class="project-tag">Docker Compose</span>
-    <span class="project-tag">Full-Stack</span>
+    <span class="project-tag">Mongoose</span>
 
   </div>
 
